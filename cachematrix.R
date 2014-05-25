@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## this function solves the inversion of the matrix. it pulls from cache first.
+## this function solves and returns the inversion of the matrix. it pulls from cache first.
 ##on cache miss, it calculates it
 
 cacheSolve <- function(x, ...) {
